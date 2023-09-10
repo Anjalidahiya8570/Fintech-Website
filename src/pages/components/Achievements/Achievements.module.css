@@ -1,0 +1,5 @@
+.list { 
+    list-style-image: url(../../images/trophy-small.png); 
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

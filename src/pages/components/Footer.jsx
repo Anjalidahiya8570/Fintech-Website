@@ -36,60 +36,37 @@ export default function App() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
-                Company name
+                <img src={nvctilogo} alt="nvcti logo" style={{height : "9em", borderRadius: "50%"}}/>
+              <h6 className='text-uppercase fw-bold mb-4' style={{marginTop : "1em"}}>
+              &ensp; NVCTI IIT (ISM)
               </h6>
-              <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
-              </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Angular
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  React
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Vue
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Laravel
-                </a>
-              </p>
+              {/* 2nd Column (Not Used) */}
+                
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Sections</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                  Home
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Settings
+                  About
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Orders
+                  Members
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Help
+                  Events
                 </a>
               </p>
             </MDBCol>
@@ -97,12 +74,12 @@ export default function App() {
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
-                <MDBIcon icon="home" className="me-2" />
-                New York, NY 10012, US
+                <MDBIcon icon="location-dot" className="me-2" />
+                IIT (ISM), Dhanbad
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                <a href="mailto:fintech_club@iitism.ac.in" style={{color: "white", textDecoration:"none"}}>fintech_club@iitism.ac.in</a>
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
@@ -115,12 +92,9 @@ export default function App() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
-        </a>
-      </div>
+      {/* <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.3)' }}>
+        © 2023 Copyright:&ensp; Fintech, IIT (ISM)
+      </div> */}
     </MDBFooter>
   );
 }

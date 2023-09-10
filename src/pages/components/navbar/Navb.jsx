@@ -6,7 +6,7 @@ import logo from './../../images/logo_nav.jpeg'
 
 function Navb() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-dark-subtle">
+    <Navbar collapseOnSelect expand="lg" className="bg-dark-subtle sticky-top">
       <Container>
         <Navbar.Brand href="#home"><img src = {logo} style={{height: "2em"}}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
