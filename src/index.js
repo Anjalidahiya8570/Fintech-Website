@@ -8,6 +8,9 @@ import Navb from './pages/components/navbar/Navb';
 import Footer from './pages/components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import About from './pages/About/About';
+import Members from './pages/Members';
+import Events from './pages/Events';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +18,9 @@ root.render(
     <Navb/>
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About/>} />
+      <Route path="/members" element={<Members/>} />
+      <Route path="/events" element={<Events/>} />
     </Routes>
     <Footer/>
   </BrowserRouter>

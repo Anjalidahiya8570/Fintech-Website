@@ -1,0 +1,37 @@
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.project h4{
+    text-decoration: underline;
+}
+
+.image{
+    height: 8em;
+    width: 10em;
+    background-image: url(../../images/Project.png);
+    background-size: cover;
+}
+
+.content{
+    width: 20em;
+    flex-grow: 1;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 786px) {
+    .project{
+        display: block;
+    }
+    .image{
+        margin: auto;
+    }
+    .content{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+  }

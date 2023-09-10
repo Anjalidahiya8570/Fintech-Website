@@ -3,7 +3,7 @@ import styles from './Achievements.module.css'
 
 const Achievements = () => {
   return (
-    <div>
+    <div id = "achieve">
         <h2 className='mhead'>Achievements</h2>
         <div className='big-card'>
             <ul>

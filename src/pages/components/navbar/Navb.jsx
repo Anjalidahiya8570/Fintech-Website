@@ -3,8 +3,16 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from './../../images/logo_nav.jpeg'
+import {Link} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link'
 
 function Navb() {
+  const scrollWithOffset = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -80; 
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+}
+
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-dark-subtle sticky-top">
       <Container>
@@ -27,13 +35,13 @@ function Navb() {
             </NavDropdown> */}
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Home</Nav.Link>
-            <Nav.Link href="#deets">Achievements</Nav.Link>
-            <Nav.Link href="#deets">Project</Nav.Link>
-            <Nav.Link href="#deets">About</Nav.Link>
-            <Nav.Link href="#deets">Members</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Events
+            <Nav.Link><Link to="/" style={{color : "#000000a6", textDecoration: "none"}}>Home</Link></Nav.Link>
+            <Nav.Link><HashLink to="/#achieve" scroll={scrollWithOffset} style={{color : "#000000a6", textDecoration: "none"}}> Achievements</HashLink></Nav.Link>
+            <Nav.Link><HashLink to="/#projects" scroll={scrollWithOffset} style={{color : "#000000a6", textDecoration: "none"}}> Project</HashLink></Nav.Link>
+            <Nav.Link><HashLink to="/about" style={{color : "#000000a6", textDecoration: "none"}}> About </HashLink></Nav.Link>
+            <Nav.Link><HashLink to="/members" style={{color : "#000000a6", textDecoration: "none"}}> Members </HashLink></Nav.Link>
+            <Nav.Link eventKey={2}>
+              <Link to="/events" style={{color : "#000000a6", textDecoration: "none"}}>Events</Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
