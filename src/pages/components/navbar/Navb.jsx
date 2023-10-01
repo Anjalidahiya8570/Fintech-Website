@@ -38,8 +38,8 @@ function Navb() {
             <Nav.Link><Link to="/" style={{color : "#000000a6", textDecoration: "none"}}>Home</Link></Nav.Link>
             <Nav.Link><HashLink to="/#achieve" scroll={scrollWithOffset} style={{color : "#000000a6", textDecoration: "none"}}> Achievements</HashLink></Nav.Link>
             <Nav.Link><HashLink to="/#projects" scroll={scrollWithOffset} style={{color : "#000000a6", textDecoration: "none"}}> Project</HashLink></Nav.Link>
-            <Nav.Link><HashLink to="/about" style={{color : "#000000a6", textDecoration: "none"}}> About </HashLink></Nav.Link>
-            <Nav.Link><HashLink to="/members" style={{color : "#000000a6", textDecoration: "none"}}> Members </HashLink></Nav.Link>
+            <Nav.Link><Link to="/about" style={{color : "#000000a6", textDecoration: "none"}}> About </Link></Nav.Link>
+            <Nav.Link><Link to="/members" style={{color : "#000000a6", textDecoration: "none"}}> Members </Link></Nav.Link>
             <Nav.Link eventKey={2}>
               <Link to="/events" style={{color : "#000000a6", textDecoration: "none"}}>Events</Link>
             </Nav.Link>

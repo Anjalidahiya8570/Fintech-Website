@@ -1,0 +1,37 @@
+.flexr{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.image{
+    width: 15em;
+    height: 15em;
+    background-image: url(../images/fintech_logo.jpeg);
+    background-size: cover;
+    margin-left: 25px;
+}
+
+.content{
+    text-align: justify;
+    width: 12em;
+    flex-grow: 1;
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 786px) {
+    .flexr{
+        display: block;
+    }
+    .image{
+        margin-left: 0;
+        margin: auto;
+        width: 80vw;
+        height: 80vw;
+    }
+    .content{
+        width: 100%;
+        margin-top: 25px;
+    }
+  }

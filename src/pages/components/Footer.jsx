@@ -4,7 +4,7 @@ import nvctilogo from '../images/nvcti.png';
 
 export default function App() {
   return (
-    <MDBFooter color='white' bgColor='dark' className='text-center text-lg-start'>
+    <MDBFooter color='white' bgColor='dark' className='text-center text-lg-start' style={{marginTop: "60px"}}>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
@@ -50,22 +50,22 @@ export default function App() {
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Sections</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/' className='text-reset'>
                   Home
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/about' className='text-reset'>
                   About
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/members' className='text-reset'>
                   Members
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/events' className='text-reset'>
                   Events
                 </a>
               </p>
