@@ -1,0 +1,33 @@
+.card{
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px;
+    /* flex-basis: 13em; */
+    margin: 20px 8px;
+}
+
+.img{
+    width: 8em;
+    height: 8em;
+    margin: auto;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid black;
+    /* background-image: url(../../images/member-pics/harshit.jpeg); */
+}
+.card p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.card i{
+    color: black;
+}
+
+
+.card:hover{
+    box-shadow: 0 0 20px;
+}
