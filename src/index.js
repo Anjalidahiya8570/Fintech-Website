@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import About from './pages/About/About';
 import Members from './pages/Members/Members';
-import Events from './pages/Events';
+import Events from './pages/Events/Events';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
