@@ -97,15 +97,16 @@
   }
 
   .modal-image {
-    width: 100%;
+    min-width: 100%;
+    margin-bottom: 20px;
     /* max-width: 200px; Adjust as needed */
     height: auto;
   }
 }
 .modal-image {
-  width: 40%;
+  width: 50%;
   /* max-width: 200px; Adjust as needed */
-  height: auto;
+  min-height: 100%;
 }
 
 .modal-text {
