@@ -14,12 +14,45 @@ const Events = () => {
     setSelectedEvent(null);
   };
 
+  const renderDescription = (description) => {
+    const words = description.split(" ");
+    const initialWords = words.slice(0, 10).join(" ");
+    const remainingWords = words.slice(10).join(" ");
+    return (
+      <>
+        <p className="text-base mb-2">{initialWords}</p>
+        {words.length > 10 && (
+          <div className="flex justify-end">
+            <button
+              className="text-blue-500 hover:underline focus:outline-none"
+              onClick={() => handleReadMore(remainingWords)}
+            >
+              Read more..
+            </button>
+          </div>
+        )}
+      </>
+    );
+  };
+
+  const handleReadMore = (remainingWords) => {
+    setSelectedEvent({
+      ...selectedEvent,
+      eventDescription: remainingWords,
+    });
+  };
+
   return (
-    <div className="flex flex-wrap justify-center">
+    <div
+      className="flex flex-wrap justify-center"
+      // style={{
+      //   background: `linear-gradient(to bottom, #CED4DA, rgba(0, 0, 0, 0.5))`,
+      // }}
+    >
       {EventData.map((event, index) => (
         <Tilt key={index} className="tilt" options={{ scale: 1.02, max: 15 }}>
           <div
-            className="border border-gray-300 rounded-lg shadow-xl m-4 overflow-hidden w-72"
+            className="border border-gray-300 rounded-lg shadow-xl m-4 w-72 h-[91%] overflow-auto"
             onClick={() => handleCardClick(event)}
           >
             <img
@@ -29,7 +62,7 @@ const Events = () => {
             />
             <div className="p-4">
               <h2 className="text-xl font-bold mb-2">{event.eventName}</h2>
-              <p className="text-base mb-2">{event.eventDescription}</p>
+              {renderDescription(event.eventDescription)}
               <p className="text-sm mb-1">Presenter: {event.eventPresenter}</p>
               <p className="text-sm">Date: {event.eventDate}</p>
             </div>
@@ -37,9 +70,12 @@ const Events = () => {
         </Tilt>
       ))}
       {selectedEvent && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-lg">
+        <div
+          className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm"
+          onClick={handleCloseModal}
+        >
           <div className="bg-white rounded-lg shadow-md w-[90%] h-[60%] max-w-3xl mx-4 overflow-hidden">
-            <div className="flex justify-end p-2 ">
+            <div className="hidden flex h-[10%] justify-end p-2 ">
               <button
                 className="text-gray-600 hover:text-gray-800 focus:outline-none"
                 onClick={handleCloseModal}
@@ -60,7 +96,7 @@ const Events = () => {
                 </svg>
               </button>
             </div>
-            <div className="flex flex-col md:flex-row p-4">
+            <div className="flex h-full flex-col md:flex-row p-4">
               <img
                 className="w-full md:w-1/2 h-auto"
                 src={SampleImg}
@@ -70,7 +106,7 @@ const Events = () => {
                 <h2 className="text-xl font-bold mb-2">
                   {selectedEvent.eventName}
                 </h2>
-                <p className="text-base mb-2">
+                <p className="text-base mb-2 overflow-auto max-h-[61%]">
                   {selectedEvent.eventDescription}
                 </p>
                 <p className="text-sm mb-1">
