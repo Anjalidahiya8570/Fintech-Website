@@ -17,7 +17,7 @@
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-tilt": "^1.0.2",
     "sass": "^1.66.1",
     "tailwind": "^4.0.0",

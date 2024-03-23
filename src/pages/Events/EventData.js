@@ -1,66 +1,67 @@
 export default [
-    {
-      eventName: "Tech Talk: AI in Healthcare",
-      eventPresenter: "Dr. Emily Smith",
-      eventImage: "./art-woc.jpg",
-      eventDescription: "Explore the applications of artificial intelligence in revolutionizing healthcare.",
-      eventDate: "2024-02-15"
-    },
-    {
-      eventName: "Webinar: Future of Renewable Energy",
-      eventPresenter: "John Doe",
-      eventImage: "renewable_energy.jpg",
-      eventDescription: "Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.Join us to discuss the latest advancements and challenges in renewable energy technologies.",
-      eventDate: "2024-03-10"
-    },
-    {
-      eventName: "Workshop: Introduction to Blockchain",
-      eventPresenter: "Alice Johnson",
-      eventImage: "blockchain_workshop.jpg",
-      eventDescription: "Learn the fundamentals of blockchain technology and its potential impact on various industries.",
-      eventDate: "2024-04-05"
-    },
-    {
-      eventName: "Panel Discussion: Space Exploration",
-      eventPresenter: "Dr. Neil Armstrong",
-      eventImage: "space_exploration.jpg",
-      eventDescription: "A conversation on the future of space exploration and colonization.",
-      eventDate: "2024-05-20"
-    },
-    {
-      eventName: "Seminar: Cybersecurity Trends",
-      eventPresenter: "Sarah Brown",
-      eventImage: "cybersecurity_trends.jpg",
-      eventDescription: "Stay updated on the latest cybersecurity threats, trends, and best practices.",
-      eventDate: "2024-06-15"
-    },
-    {
-      eventName: "Conference: Future of Work",
-      eventPresenter: "David Johnson",
-      eventImage: "future_of_work.jpg",
-      eventDescription: "Discover how technology is reshaping the future of work and workforce management.",
-      eventDate: "2024-07-10"
-    },
-    {
-      eventName: "Hackathon: Innovate for Good",
-      eventPresenter: "Emma White",
-      eventImage: "hackathon_innovate.jpg",
-      eventDescription: "Join us for a hackathon focused on creating innovative solutions for social good.",
-      eventDate: "2024-08-25"
-    },
-    {
-      eventName: "Workshop: UX Design Principles",
-      eventPresenter: "Michael Johnson",
-      eventImage: "ux_design_workshop.jpg",
-      eventDescription: "Learn essential UX design principles and practices for creating user-friendly interfaces.",
-      eventDate: "2024-09-12"
-    },
-    {
-      eventName: "Conference: Future of Artificial Intelligence",
-      eventPresenter: "Dr. Alan Turing",
-      eventImage: "future_of_ai.jpg",
-      eventDescription: "Explore the latest trends and breakthroughs in artificial intelligence research and applications.",
-      eventDate: "2024-10-30"
-    }
-  ];
-  
+  {
+    eventName: "Introduction to High Frequency Trading",
+    eventPresenter:
+      "Ansh Tayal (Deputy Manager Economic Policy & Research ( National Stock Exchange) )",
+    eventImage: "./event-pics/Introduction_To_HFT.jpg",
+    eventDescription: `A call to all the trading enthusiasts! We welcome you to attend a session on Introduction to High-Frequency Trading (HFT) by Mr Ansh Tayal, Deputy Manager of Economic Policy and Research at the National Stock Exchange(NSE) of India, organized by FinTech Club, IIT(ISM) Dhanbad. 
+    HFT is an up-and-coming subfield within Trading, with a niche background and bright career prospects. The session would cover all the necessary details for someone looking to explore HFTs, how to start, and the career paths one could take.
+    `,
+    eventDate: "2024-03-16",
+  },
+  {
+    eventName: "Pitch-A_Minute 3.0",
+    eventPresenter: "FinTech Club IIT-ISM Dhanbad",
+    eventImage: "./event-pics/PAM.jpg",
+    eventDescription: `The Fintech Club showcased its commitment to fostering entrepreneurship and cultivating innovative thinking by organising the "Pitch a Minute" competition exclusively for first-year students.. This dynamic event provided a platform for these budding entrepreneurs to articulate and present their startup ideas succinctly.The competition not only honed the participants' communication and presentation skills but also encouraged them to distil their entrepreneurial visions into concise and impactful narratives.
+    `,
+    eventDate: "2024-01-26",
+  },
+  {
+    eventName: "Introduction to Finance",
+    eventPresenter: "FinTech Club IIT-ISM Dhanbad",
+    eventImage: "./event-pics/IntroToFinance.jpg",
+    eventDescription: `A call to all the trading enthusiasts! We welcome you to attend a session on Introduction to High-Frequency Trading (HFT) by Mr Ansh Tayal, Deputy Manager of Economic Policy and Research at the National Stock Exchange(NSE) of India, organized by FinTech Club, IIT(ISM) Dhanbad. 
+    HFT is an up-and-coming subfield within Trading, with a niche background and bright career prospects. The session would cover all the necessary details for someone looking to explore HFTs, how to start, and the career paths one could take.
+    `,
+    eventDate: "2024-01-19",
+  },
+  {
+    eventName:
+      "Session on Developing Robust Business Models and Mastering the Art of Pitch Deck Presentations",
+    eventPresenter: "Mr. Nadeem Ahmad",
+    eventImage: "./event-pics/GuestTalk.jpg",
+    eventDescription: `A call to all the trading enthusiasts! We welcome you to attend a session on Introduction to High-Frequency Trading (HFT) by Mr Ansh Tayal, Deputy Manager of Economic Policy and Research at the National Stock Exchange(NSE) of India, organized by FinTech Club, IIT(ISM) Dhanbad. 
+    HFT is an up-and-coming subfield within Trading, with a niche background and bright career prospects. The session would cover all the necessary details for someone looking to explore HFTs, how to start, and the career paths one could take.
+    `,
+    eventDate: "2023-10-14",
+  },
+  {
+    eventName: "Entrepreneur Talk with Sandipan Chattopadhyay",
+    eventPresenter:
+      "Sandipan Chattopadhyay ( CEO & MD at Xelpmoc , Former CTO of JustDial",
+    eventImage: "./event-pics/EntreTalk.jpg",
+    eventDescription: `A call to all the trading enthusiasts! We welcome you to attend a session on Introduction to High-Frequency Trading (HFT) by Mr Ansh Tayal, Deputy Manager of Economic Policy and Research at the National Stock Exchange(NSE) of India, organized by FinTech Club, IIT(ISM) Dhanbad. 
+    HFT is an up-and-coming subfield within Trading, with a niche background and bright career prospects. The session would cover all the necessary details for someone looking to explore HFTs, how to start, and the career paths one could take.
+    `,
+    eventDate: "2023-10-14",
+  },
+  {
+    eventName: "Bizathon",
+    eventPresenter: "FinTech Club IIT-ISM Dhanbad",
+    eventImage: "./event-pics/Bizathon.jpg",
+    eventDescription: `A call to all the trading enthusiasts! We welcome you to attend a session on Introduction to High-Frequency Trading (HFT) by Mr Ansh Tayal, Deputy Manager of Economic Policy and Research at the National Stock Exchange(NSE) of India, organized by FinTech Club, IIT(ISM) Dhanbad. 
+    HFT is an up-and-coming subfield within Trading, with a niche background and bright career prospects. The session would cover all the necessary details for someone looking to explore HFTs, how to start, and the career paths one could take.
+    `,
+    eventDate: "2023-10-15",
+  },
+  {
+    eventName: "Worldquant Brain Alphathon",
+    eventPresenter: "Worldquant",
+    eventImage: "./event-pics/Alphathon.jpg",
+    eventDescription: `A call to all the trading enthusiasts! We welcome you to attend a session on Introduction to High-Frequency Trading (HFT) by Mr Ansh Tayal, Deputy Manager of Economic Policy and Research at the National Stock Exchange(NSE) of India, organized by FinTech Club, IIT(ISM) Dhanbad. 
+    HFT is an up-and-coming subfield within Trading, with a niche background and bright career prospects. The session would cover all the necessary details for someone looking to explore HFTs, how to start, and the career paths one could take.
+    `,
+    eventDate: "2023-09-22 to 2023-10-22",
+  },
+];

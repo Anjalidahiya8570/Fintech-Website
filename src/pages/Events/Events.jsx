@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Tilt } from "react-tilt";
 import EventData from "./EventData";
-import SampleImg from "./art-woc.jpg";
+
 
 const Events = () => {
   const [selectedEvent, setSelectedEvent] = useState(null);
@@ -57,13 +57,13 @@ const Events = () => {
           >
             <img
               className="w-full h-48 object-cover"
-              src={SampleImg}
+              src={event.eventImage}
               alt={event.eventName}
             />
             <div className="p-4">
               <h2 className="text-xl font-bold mb-2">{event.eventName}</h2>
               {renderDescription(event.eventDescription)}
-              <p className="text-sm mb-1">Presenter: {event.eventPresenter}</p>
+              <p className="text-sm mb-1">Presenter:  {event.eventPresenter}</p>
               <p className="text-sm">Date: {event.eventDate}</p>
             </div>
           </div>
@@ -99,7 +99,7 @@ const Events = () => {
             <div className="flex h-full flex-col md:flex-row p-4">
               <img
                 className="w-full md:w-1/2 h-auto"
-                src={SampleImg}
+                src={selectedEvent.eventImage}
                 alt={selectedEvent.eventName}
               />
               <div className="p-4">

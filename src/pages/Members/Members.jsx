@@ -14,8 +14,6 @@ const Members = () => {
       <h2 className="shead">Second Year</h2>
       <MemberContainer data = {data.secondYear}/>
       <br />
-      <h2 className="mhead">Alumini</h2>
-      <MemberContainer data = {data.alumni}/>
     </div>
   )
 }
