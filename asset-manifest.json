@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Fintech-Website/static/css/main.6f94530b.css",
+    "main.js": "/Fintech-Website/static/js/main.d1178ab7.js",
+    "static/js/787.8f505715.chunk.js": "/Fintech-Website/static/js/787.8f505715.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Fintech-Website/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/Fintech-Website/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/Fintech-Website/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/Fintech-Website/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/Fintech-Website/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/Fintech-Website/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/Project.png": "/Fintech-Website/static/media/Project.a45d341efa6b267c101f.png",
+    "static/media/logo-nav-transparent.png": "/Fintech-Website/static/media/logo-nav-transparent.c19315fdcedc13b0a8a7.png",
+    "static/media/fa-v4compatibility.ttf": "/Fintech-Website/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Fintech-Website/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/Fintech-Website/index.html",
+    "main.6f94530b.css.map": "/Fintech-Website/static/css/main.6f94530b.css.map",
+    "main.d1178ab7.js.map": "/Fintech-Website/static/js/main.d1178ab7.js.map",
+    "787.8f505715.chunk.js.map": "/Fintech-Website/static/js/787.8f505715.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f94530b.css",
+    "static/js/main.d1178ab7.js"
+  ]
+}
